@@ -1,0 +1,27 @@
+:root {
+  padding: 0;
+  margin: 0;
+}
+header{
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+body {
+  background-color: #aee7e8;
+  color: #248ea9;
+}
+
+.food{
+  background-color:#fafdcb;
+
+}
+
+.toys{
+  margin-bottom: 1em;
+  background-color: #28c3d4;
+}
+
+.summary {
+  text-align: center;
+}

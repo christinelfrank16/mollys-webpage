@@ -3,60 +3,96 @@
 
 <head>
   <title>Molly's Webpage!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
-<body>
+<header>
   <h1>Hi! I'm Molly! </h1>
   <h2>I made this page to tell you about <strong>me</strong>!</h2>
   <img src="img/aussie.jpeg" alt="A picture of Molly">
+</header>
 
-  <h3>Here are some of my favorite foods:</h3>
-  <ul>
-    <li>
-      <a href="https://www.petco.com/shop/en/petcostore/category/dog/dog-food">
-        My dog food - it's made with <strong>beef</strong>!
-        <img src="img/food-bowl.jpeg" alt="A picture of Molly's food!">
-      </a>
-    </li>
-    <li>
-      <strong><em>CHEESE</em>!</strong>
-      <a href="https://en.wikipedia.org/wiki/Cheese">
-        <img src="img/cheese.jpeg" alt="A picture of a cheese platter">
-      </a>
-    </li>
-    <li>
-      <a href="https://www.halfyourplate.ca/fruits-and-veggies/veggies-a-z/">
-        Veggies! Especially these:
-        <img src="img/veggies.jpeg" alt="A picture of veggies">
-      </a>
-      <ul>
-        <li>Carrots</li>
-        <li>Broccoli</li>
-        <li><strong><em>CHEESE</em></strong>! (It's totally a vegetable!)</li>
-      </ul>
-    </li>
-    <li>Sticks<img src="img/sticks.jpeg" alt="A picture of sticks"></li>
-    <li>Other plant things, like flowers. They are tasty.<img src="img/flowers.jpeg" alt="A picture of a dog eating a flower"></li>
-  </ul>
+<body>
+  <div class="food container-fluid position-relative">
+    <h3>Here are some of my favorite foods:</h3>
 
-  <h3>And here are some of my favorite <strong>toys</strong>:</h3>
-  <ul>
-    <li>
-      <a href="https://www.chewy.com/otterly-pets-assorted-small-to/dp/158463?utm_source=google-product&utm_medium=cpc&utm_campaign=hg&utm_content=Otterly%20Pets&utm_term=&gclid=EAIaIQobChMI4d7skNHs4wIV6R-tBh0GsgAuEAQYAyABEgI3avD_BwE">
-        My blue rope
-        <img src="img/rope-toy.jpeg" alt="A blue rope toy">
-      </a>
-    </li>
-    <li>My yellow squeeky toy; it looks like a bacteria</li>
-    <li>
-      <a href="https://www.chewy.com/pet-zone-iq-treat-ball-dog-toy-4-in/dp/142885?utm_source=google-product&utm_medium=cpc&utm_campaign=hg&utm_content=Pet%20Zone&utm_term=&gclid=EAIaIQobChMI0a_H1NHs4wIVsxx9Ch371gmvEAQYBSABEgKojPD_BwE">
-        My food ball. It gives me my <em>kibbles</em> when I'm outside!
-        <img src="img/food-ball.jpeg" alt="A picture of Molly's food ball">
-      </a>
-    </li>
-  </ul>
+    <ul>
+      <div class="row">
 
-  <p>In summary, I'm a super fluffy, <em>excited</em> dog and would <strong><em>love</em></strong> to meet you!</p>
+        <div class="col-sm-6">
+
+          <li>
+            <a href="https://www.petco.com/shop/en/petcostore/category/dog/dog-food">
+              My dog food - it's made with <strong>beef</strong>!
+              <img src="img/food-bowl.jpeg" alt="A picture of Molly's food!">
+            </a>
+          </li>
+        </div>
+        <div class="col-sm-6">
+          <li>
+            <strong><em>CHEESE</em>!</strong>
+            <a href="https://en.wikipedia.org/wiki/Cheese">
+              <img src="img/cheese.jpeg" alt="A picture of a cheese platter">
+            </a>
+          </li>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <li>
+            <a href="https://www.halfyourplate.ca/fruits-and-veggies/veggies-a-z/">
+              Veggies! Especially these:
+              <img src="img/veggies.jpeg" alt="A picture of veggies">
+            </a>
+            <ul>
+              <li>Carrots</li>
+              <li>Broccoli</li>
+              <li><strong><em>CHEESE</em></strong>! (It's totally a vegetable!)</li>
+            </ul>
+          </li>
+        </div>
+        <div class="col-sm-6">
+          <li>Sticks<img src="img/sticks.jpeg" alt="A picture of sticks"></li>
+          <li>Other plant things, like flowers. They are tasty.<img src="img/flowers.jpeg" alt="A picture of a dog eating a flower"></li>
+        </div>
+      </div>
+    </ul>
+  </div>
+
+  <div class="toys container-fluid position-relative">
+    <h3>And here are some of my favorite <strong>toys</strong>:</h3>
+    <ul>
+      <div class="row">
+
+
+        <div class="col-sm-4">
+
+          <li>
+            <a href="https://www.chewy.com/otterly-pets-assorted-small-to/dp/158463?utm_source=google-product&utm_medium=cpc&utm_campaign=hg&utm_content=Otterly%20Pets&utm_term=&gclid=EAIaIQobChMI4d7skNHs4wIV6R-tBh0GsgAuEAQYAyABEgI3avD_BwE">
+              My blue rope
+              <img src="img/rope-toy.jpeg" alt="A blue rope toy">
+            </a>
+          </li>
+        </div>
+        <div class="col-sm-4">
+
+
+          <li>My yellow squeeky toy; it looks like a bacteria</li>
+        </div>
+        <div class="col-sm-4">
+          <li>
+            <a href="https://www.chewy.com/pet-zone-iq-treat-ball-dog-toy-4-in/dp/142885?utm_source=google-product&utm_medium=cpc&utm_campaign=hg&utm_content=Pet%20Zone&utm_term=&gclid=EAIaIQobChMI0a_H1NHs4wIVsxx9Ch371gmvEAQYBSABEgKojPD_BwE">
+              My food ball. It gives me my <em>kibbles</em> when I'm outside!
+              <img src="img/food-ball.jpeg" alt="A picture of Molly's food ball">
+            </a>
+          </li>
+        </div>
+
+      </div>
+    </ul>
+  </div>
+
+  <p class="summary">In summary, I'm a super fluffy, <em>excited</em> dog and would <strong><em>love</em></strong> to meet you!</p>
 </body>
 
 </html>
