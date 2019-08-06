@@ -12,6 +12,11 @@ body {
   color: #248ea9;
 }
 
+h1 {
+  color: #6015E8;
+  font-weight: bold;
+}
+
 .food{
   background-color:#fafdcb;
 
